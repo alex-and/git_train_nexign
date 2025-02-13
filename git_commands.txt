@@ -1,0 +1,5 @@
+ssh-keygen -t rsa -b 4096 -C "generated for git course from Nexign"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+cat /c/Users/halla/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQClTwRYOFfwIFvNL/lmj28kvyezlxoATKKgBraICjcUcpEm3UTJ6M2zWAfAwmi3Fg5Megr5WRmv6mKNqJFbXclQl8hT4NBDx+bicNBf/Rdpyj98pBzX/5Dm99b7gdxKAweE2xoXJ6nfOtHsf7pJ4/QtEAAGJ5vMUB1mP1IDCJynvigL5EjV1aDOR6QXI2HarX4qYW7PcOm4Stauorq27KImIGbsjExSiKAwe37nZgD8NcPTAN8w/8I88sGBPaMxpit650PSehEN2JtqPZO6auRt4c2s5Fif4DWAFh7EKwXzL5OylvcRBVgihtAkKa6dR2rSdjVWVNqHg7+xdAujNvOeQfI82YhUHuwisIWza12GH2Zg9I3fLE3Cvx0qOaejqXnnqFmHcuoLVpRePHkCYbC456rU9/rgsFH1ehn1R7P0clQswTA4TGI280Fmsz6uM3Vf7+VisdnhSDFw60sw5xS2eM+Q4tNbCAvVyEuppFynQJkkkvVY+BB1p5roDDlw8e0= git_training
