@@ -1,1 +1,0 @@
-ssh-keygen -t rsa -b 4096 -C "generated for git course from Nexign"
